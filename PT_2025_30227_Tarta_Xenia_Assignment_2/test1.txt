@@ -1,0 +1,162 @@
+Simulation started with 4 clients and 2 queues
+Clients generated:
+(3,3,4)
+(2,15,4)
+(4,15,4)
+(1,21,3)
+
+Time 0
+Waiting clients: (3,3,4); (2,15,4); (4,15,4); (1,21,3)
+Queues status:
+Queue 1: closed
+Queue 2: closed
+
+Time 2
+Waiting clients: (3,3,4); (2,15,4); (4,15,4); (1,21,3)
+Queues status:
+Queue 1: closed
+Queue 2: closed
+
+Time 3
+Waiting clients: (2,15,4); (4,15,4); (1,21,3)
+Queues status:
+Queue 1: closed
+Queue 2: [3 (4s)]
+
+Time 4
+Waiting clients: (2,15,4); (4,15,4); (1,21,3)
+Queues status:
+Queue 1: closed
+Queue 2: [3 (3s)]
+
+Time 5
+Waiting clients: (2,15,4); (4,15,4); (1,21,3)
+Queues status:
+Queue 1: closed
+Queue 2: [3 (2s)]
+
+Time 6
+Waiting clients: (2,15,4); (4,15,4); (1,21,3)
+Queues status:
+Queue 1: closed
+Queue 2: [3 (1s)]
+
+Time 7
+Waiting clients: (2,15,4); (4,15,4); (1,21,3)
+Queues status:
+Queue 1: closed
+Queue 2: closed
+
+Time 8
+Waiting clients: (2,15,4); (4,15,4); (1,21,3)
+Queues status:
+Queue 1: closed
+Queue 2: closed
+
+Time 9
+Waiting clients: (2,15,4); (4,15,4); (1,21,3)
+Queues status:
+Queue 1: closed
+Queue 2: closed
+
+Time 10
+Waiting clients: (2,15,4); (4,15,4); (1,21,3)
+Queues status:
+Queue 1: closed
+Queue 2: closed
+
+Time 11
+Waiting clients: (2,15,4); (4,15,4); (1,21,3)
+Queues status:
+Queue 1: closed
+Queue 2: closed
+
+Time 12
+Waiting clients: (2,15,4); (4,15,4); (1,21,3)
+Queues status:
+Queue 1: closed
+Queue 2: closed
+
+Time 13
+Waiting clients: (2,15,4); (4,15,4); (1,21,3)
+Queues status:
+Queue 1: closed
+Queue 2: closed
+
+Time 14
+Waiting clients: (2,15,4); (4,15,4); (1,21,3)
+Queues status:
+Queue 1: closed
+Queue 2: closed
+
+Time 15
+Waiting clients: (1,21,3)
+Queues status:
+Queue 1: [4 (4s)]
+Queue 2: [2 (4s)]
+
+Time 16
+Waiting clients: (1,21,3)
+Queues status:
+Queue 1: [4 (3s)]
+Queue 2: [2 (3s)]
+
+Time 17
+Waiting clients: (1,21,3)
+Queues status:
+Queue 1: [4 (2s)]
+Queue 2: [2 (2s)]
+
+Time 18
+Waiting clients: (1,21,3)
+Queues status:
+Queue 1: [4 (1s)]
+Queue 2: [2 (1s)]
+
+Time 19
+Waiting clients: (1,21,3)
+Queues status:
+Queue 1: closed
+Queue 2: closed
+
+Time 20
+Waiting clients: (1,21,3)
+Queues status:
+Queue 1: closed
+Queue 2: closed
+
+Time 21
+No waiting clients
+Queues status:
+Queue 1: closed
+Queue 2: [1 (3s)]
+
+Time 22
+No waiting clients
+Queues status:
+Queue 1: closed
+Queue 2: [1 (2s)]
+
+Time 23
+No waiting clients
+Queues status:
+Queue 1: closed
+Queue 2: [1 (1s)]
+
+Time 24
+No waiting clients
+Queues status:
+Queue 1: closed
+Queue 2: closed
+
+Simulation stopped at time 24
+
+Average waiting time: 0.00 seconds
+Average service time: 3.75 seconds
+Peak hour: 16 with 4 clients
+
+Simulation completed at time 25
+
+Average waiting time: 0.00 seconds
+Average service time: 3.75 seconds
+Peak hour: 16 with 4 clients

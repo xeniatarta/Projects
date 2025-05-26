@@ -1,0 +1,36 @@
+Simulation started using strategy: SHORTEST_QUEUE
+Parameters: TimeLimit=60, Clients=4, Queues=2
+Time 1 | Waiting clients: 4 | Clients in queues: 0
+Time 2 | Waiting clients: 4 | Clients in queues: 0
+Time 3 | Waiting clients: 4 | Clients in queues: 0
+Time 4 | Waiting clients: 4 | Clients in queues: 0
+Time 5 | Waiting clients: 4 | Clients in queues: 0
+Time 6 | Waiting clients: 4 | Clients in queues: 0
+Time 7 | Waiting clients: 4 | Clients in queues: 0
+Time 8 | Waiting clients: 4 | Clients in queues: 0
+Time 9 | Waiting clients: 4 | Clients in queues: 0
+Time 10 | Waiting clients: 3 | Clients in queues: 2
+Time 11 | Waiting clients: 3 | Clients in queues: 2
+Time 12 | Waiting clients: 3 | Clients in queues: 2
+Time 13 | Waiting clients: 2 | Clients in queues: 2
+Time 14 | Waiting clients: 2 | Clients in queues: 2
+Time 15 | Waiting clients: 2 | Clients in queues: 2
+Time 16 | Waiting clients: 2 | Clients in queues: 0
+Time 17 | Waiting clients: 2 | Clients in queues: 0
+Time 18 | Waiting clients: 2 | Clients in queues: 0
+Time 19 | Waiting clients: 2 | Clients in queues: 0
+Time 20 | Waiting clients: 2 | Clients in queues: 0
+Time 21 | Waiting clients: 2 | Clients in queues: 0
+Time 22 | Waiting clients: 2 | Clients in queues: 0
+Time 23 | Waiting clients: 1 | Clients in queues: 2
+Time 24 | Waiting clients: 1 | Clients in queues: 2
+Time 25 | Waiting clients: 0 | Clients in queues: 4
+Time 26 | Waiting clients: 0 | Clients in queues: 4
+Time 27 | Waiting clients: 0 | Clients in queues: 0
+Simulation stopped.
+
+=== SIMULATION RESULTS ===
+Average Waiting Time: 0.00 seconds
+Average Service Time: 3.00 seconds
+Peak Hour: Time 25 with 4 clients
+Total Clients Processed: 4/4

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+
+<!--<AnchorPane xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23.0.1" fx:controller="com.example.colocvbd.HelloController"> -->
+<!--  <VBox alignment="CENTER" prefHeight="400" prefWidth="600" spacing="10" AnchorPane.leftAnchor="20" AnchorPane.rightAnchor="20" AnchorPane.topAnchor="20">-->
+<?import javafx.scene.layout.HBox?>
+<VBox xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/23.0.1" fx:controller="com.example.colocvbd.HelloController">
+    <Label text = "Selecteaza interogarea:" />
+    <!-- Butoane pentru interogări -->
+  <HBox spacing="20">
+    <Button text="3a"  onAction="#ex3a"  />
+    <Button text="3b"  onAction="#ex3b"  />
+    <Button text="4a"  onAction="#ex4a"  />
+    <Button text="4b"  onAction="#ex4b"  />
+    <Button text="5a"  onAction="#ex5a"  />
+    <Button text="5b"  onAction="#ex5b"  />
+    <Button text="6a"  onAction="#ex6a"  />
+    <Button text="6b"  onAction="#ex6b"  />
+    <Button text="proc" onAction="#proc" />
+  </HBox>
+
+  <!-- Tabel pentru afișarea rezultatelor -->
+    <TableView fx:id="tableView" prefHeight="400" prefWidth="800">
+      <!-- Coloanele sunt definite dinamic în cod -->
+    </TableView>
+
+  <Label fx:id="messageLabel" text="" style="-fx-text-fill: blue;" />
+
+    <!-- Buton de return -->
+    <Button onAction="#returnToMenu" text="Returneaza" />
+
+</VBox>
+<!--  </VBox>-->
+<!--</AnchorPane>-->
